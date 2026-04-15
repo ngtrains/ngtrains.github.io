@@ -5,7 +5,7 @@ services:
     stdin_open: true
     build: .
     volumes:
-      - ./site:/srv/jekyll
+      - ./docs:/srv/jekyll
     ports:
       - 4000:4000
     working_dir: /srv/jekyll
